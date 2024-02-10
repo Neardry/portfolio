@@ -1,0 +1,9 @@
+root = true  # mostra que esse é o arquivo principal de estilização do projeto
+
+[*] # serve para todos os arquivos
+indent_style = space # tipo de indentação
+indent_size = 2 # quantos espaços a indentação vai ter (o espaço antes de inciar o código)
+end_of_line = lf # formatação no final da linha de acordo com os SO, lf pega mais
+charset = utf-8
+trim_trailing_whitespace = true # coloca espaço a cada símbolo
+insert_final_newline = true # termina o código com uma linha em branco
