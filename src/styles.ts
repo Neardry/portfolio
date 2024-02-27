@@ -11,6 +11,8 @@ const EstiloGlobal = createGlobalStyle`
   body {
     padding-top: 90px;
     padding-bottom: 80px;
+    background-color: ${(props) => props.theme.corDeFundo};
+    transition: background-color ease-in 500ms;
 
     @media (max-width: 768px) {
       padding-top: 16px;
